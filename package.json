@@ -1,0 +1,35 @@
+{
+  "name": "fleet-pattern",
+  "version": "1.0.0",
+  "description": "A demonstration of hierarchical Durable Objects in Cloudflare Workers",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "bunx wrangler deploy"
+  },
+  "author": "Jordan Coeyman",
+  "license": "MIT",
+  "keywords": [
+    "cloudflare-workers",
+    "durable-objects",
+    "websockets",
+    "typescript",
+    "edge-computing",
+    "real-time"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acoyfellow/fleet-pattern"
+  },
+  "dependencies": {
+    "hono": "^4.6.20"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250204.0",
+    "wrangler": "^3.107.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

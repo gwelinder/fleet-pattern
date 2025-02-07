@@ -1,0 +1,153 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+.home-link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+}
+
+button {
+  background: #0066cc;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0052a3;
+}
+
+.delete-btn {
+  background: #dc3545;
+  font-size: 0.9em;
+  padding: 4px 8px;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+#agents {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+#agents li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+#agents li:last-child {
+  border-bottom: none;
+}
+
+#agents a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+#agents a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #f8d7da;
+  border-left: 4px solid #dc3545;
+  color: #721c24;
+  padding: 12px 20px;
+  border-radius: 4px;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.create-agent {
+  display: flex;
+  gap: 8px;
+}
+
+.no-agents {
+  color: #666;
+  font-style: italic;
+}
+
+.agent-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.agent-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.message-input {
+  width: 200px;
+}
+
+.messages {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.message {
+  background: #e3f2fd;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border-left: 4px solid #2196f3;
+  animation: slideIn 0.3s ease-out;
+} 
