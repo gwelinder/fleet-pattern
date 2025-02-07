@@ -52,7 +52,7 @@ Root (/)
 │       └── subagent2
 └── agent2
     └── subagent3
-```
+``` 
 
 Each path segment represents a unique Durable Object instance, creating an infinitely nestable hierarchy.
 
