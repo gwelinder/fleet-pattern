@@ -1,12 +1,15 @@
-# Production-Ready Use Cases
+# IDEAS.md
 
 ## Key Principles:
-1. Each DO should be self-contained and useful in isolation
-2. Communication between DOs should enhance functionality, not be required for basic operation
-3. The edge location should provide meaningful advantages
-4. State persistence should enable unique capabilities
-5. Real-time interaction should be core to the design
+- Each DO should be self-contained and useful in isolation
+- Communication between DOs should enhance functionality, not be required for basic operation
+- The edge location should provide meaningful advantages
+- State persistence should enable unique capabilities
+- Real-time interaction should be core to the design
 
+_________
+
+## Potential Use Cases
 1. Real-time Collaborative IDE
 - Each file is a DO with its own operational transform engine
 - Real-time cursors and editing between users
