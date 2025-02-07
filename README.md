@@ -2,6 +2,8 @@
 
 A demonstration of hierarchical Durable Objects in Cloudflare Workers, enabling infinite nesting of manager/agent relationships through URL paths.
 
+![alt text](https://github.com/acoyfellow/fleet-pattern/blob/main/public/fleet-pattern.jpg?raw=true)
+
 ## Features
 
 - **Single DO Architecture**: Unified Durable Object class handling both manager and agent roles
@@ -52,7 +54,7 @@ Root (/)
 │       └── subagent2
 └── agent2
     └── subagent3
-``` 
+```
 
 Each path segment represents a unique Durable Object instance, creating an infinitely nestable hierarchy.
 
