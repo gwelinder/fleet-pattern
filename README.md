@@ -13,20 +13,11 @@ A demonstration of hierarchical Durable Objects in Cloudflare Workers, enabling 
   - Type safety
   - Clean shutdown procedures
 
-## Quick Start
+## Setup
 
-### Prerequisites
-
-- Node.js >= 18.0.0
-- [Wrangler CLI](https://developers.cloudflare.com/workers/wrangler/install-and-update/)
-- A Cloudflare account with Workers Paid plan (required for Durable Objects)
-
-### Installation
-
-1. Clone the repository:
+1. Copy `wrangler.example.toml` to `wrangler.toml`:
 ```bash
-git clone https://github.com/acoyfellow/fleet-pattern.git
-cd fleet-pattern
+cp wrangler.example.toml wrangler.toml
 ```
 
 2. Install dependencies:
@@ -36,22 +27,14 @@ npm install
 bun install
 ```
 
-3. Configure Wrangler:
-- Copy `_wrangler.toml` to `wrangler.toml`
-- Update the `account_id` in `wrangler.toml` with your Cloudflare account ID
-
-### Development
-
-Start the local development server:
+3. Start the development server:
 ```bash
 npm run dev
 # or
 bun run dev
 ```
 
-### Deployment
-
-Deploy to Cloudflare Workers:
+4. Deploy to Cloudflare Workers:
 ```bash
 npm run deploy
 # or
