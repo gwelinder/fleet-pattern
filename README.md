@@ -92,7 +92,12 @@ Each DO maintains:
    - Navigate: Click agent names to traverse hierarchy
    - Delete: Remove agents and their complete subtree
 
-3. **Nested Structures**:
+3. **Agent Communication**:
+   - Direct Message: Use the message input field next to each agent to send them a private message
+   - Broadcast: Use the broadcast input at the bottom to send a message to all child agents
+   - Messages appear as alerts and are ephemeral (not stored)
+
+4. **Nested Structures**:
    - `/team1/project1/task1`
    - `/region1/server1/process1`
    - `/department1/group1/user1`
